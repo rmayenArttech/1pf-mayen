@@ -1,0 +1,19 @@
+<div class="bg-dark text-light bg-dark">
+    <div class="container">
+        <nav class="navbar navCustom navbar-dark bg-dark">
+            <div class="mb-0 h5">Alumnos
+                <button mat-icon-button [matMenuTriggerFor]="menu" class="text-light bg-dark ">
+                    <mat-icon>reorder</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item>
+                        <span>Alta Alumno</span>
+                    </button>
+                    <button mat-menu-item>
+                        <span>Lista Alumnos</span>
+                    </button>
+                </mat-menu>
+            </div>
+        </nav>
+    </div>
+</div>
